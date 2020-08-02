@@ -22,3 +22,19 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+## creditcardテーブル
+|Column|Type|Options|
+|------|----|-------|
+|Column|Type|Options|
+|card_id|text|null: false|
+|user_id|references|null: false, foreign_key: true|
+### Association
+- belongs_to :user
+
+## tweetテーブル
+|Column|Type|Options|
+|------|----|-------|
+|name|string|       |
+|text|string|       |
+|imag|text|         |
